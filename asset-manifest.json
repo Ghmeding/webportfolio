@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/webportfolio/static/css/main.4221390e.css",
-    "main.js": "/webportfolio/static/js/main.607f970e.js",
-    "static/media/cv.pdf": "/webportfolio/static/media/cv.1676dcdc83730930d888.pdf",
+    "main.js": "/webportfolio/static/js/main.a94a3b7e.js",
     "static/media/me-about.jpg": "/webportfolio/static/media/me-about.d82bdfe63db8c58ee949.jpg",
+    "static/media/Gustav_Meding_CV_2023.pdf": "/webportfolio/static/media/Gustav_Meding_CV_2023.b8751d40d72af4b8cb30.pdf",
     "static/media/profile.jpg": "/webportfolio/static/media/profile.83a7711e5da697d6f43e.jpg",
     "index.html": "/webportfolio/index.html",
     "main.4221390e.css.map": "/webportfolio/static/css/main.4221390e.css.map",
-    "main.607f970e.js.map": "/webportfolio/static/js/main.607f970e.js.map"
+    "main.a94a3b7e.js.map": "/webportfolio/static/js/main.a94a3b7e.js.map"
   },
   "entrypoints": [
     "static/css/main.4221390e.css",
-    "static/js/main.607f970e.js"
+    "static/js/main.a94a3b7e.js"
   ]
 }
