@@ -1,0 +1,122 @@
+
+
+.x{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 10%;
+}
+
+#about {
+    padding-top: 3rem;
+}
+
+.about__me {
+    margin-top: 0.5rem;
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(170deg, transparent, white, transparent);
+    display: grid;
+    place-items: center;
+}
+
+.about__me-image {
+    border-radius: 3rem;
+    overflow: hidden;
+    transform: rotate(8deg);
+    transition: 0.9s;
+}
+
+.about__me-image:hover{
+    transform: rotate(0);
+}
+
+.about_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.aboutci {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 3rem;
+    text-align: center;
+    width: 15rem;
+    transition: 0.9s;
+}
+
+.aboutci:hover {
+    background: transparent;
+    background-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.about__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.aboutci h5 {
+    font-size: 0.95rem;
+}
+
+.aboutci small{
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+.about__content p{
+    margin: 2rem 0 2rem;
+    color: var(--color-light);
+}
+
+.about__content a{
+    margin-left: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .x{
+        grid-template-columns: 3fr;
+        gap:0;
+    }
+
+    .about__me {
+        width: 30%;
+        margin: 3rem auto 7rem;
+    }
+
+    .about__content {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .x{
+        grid-template-columns: repeat(1, 1fr);
+        gap:0;
+    }
+    .about__me {
+        width: 40%;
+        margin: 1rem auto 3rem;
+    }
+
+    .about_cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__content {
+        text-align: center;
+    }
+
+    .about__content {
+        margin: 1.5rem 0;
+    }
+
+    .about__content a{
+        margin-left: 1rem;
+    }
+}
