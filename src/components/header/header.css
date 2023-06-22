@@ -91,4 +91,15 @@ header {
         display: none;
 
     }
+
+    .me {
+        background: linear-gradient(var(--color-primary),transparent);
+        color: white;
+        width: 10rem;
+        height: auto;
+        left: calc(60% - 7rem);
+        margin-top: 3rem;
+        border-radius: 15rem 15rem 3rem 3rem;
+        overflow: hidden;
+    }
 }

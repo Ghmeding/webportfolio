@@ -95,22 +95,38 @@
 
 @media screen and (max-width: 600px) {
 
-    .about__me {
-        width: 35%;
-        margin: 0 auto 3rem;
+    #about {
+        padding-top: 0px;
     }
 
+    .about__me {
+        width: 40%;
+    }
     .about_cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
+        margin-left: 3.8rem;
+        margin-right: 0rem;
+    }
+
+    .img {
+        margin-top: 2rem;
     }
 
     .about__content {
         text-align: center;
+        margin-top: 0px;
     }
 
     .about__content p{
         margin: 1.5rem 0;
     }
+
+    #btn-about {
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+
+
 
 }
