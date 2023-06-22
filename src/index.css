@@ -27,6 +27,7 @@
 
 html {
     scroll-behavior: smooth;
+    
 }
 
 ::-webkit-scrollbar {
@@ -139,6 +140,11 @@ img {
 
     section > h2 {
         margin-bottom: 2rem;
+    }
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
     }
 }
 

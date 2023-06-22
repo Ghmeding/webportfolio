@@ -94,9 +94,10 @@
 }
 
 @media screen and (max-width: 600px) {
+
     .about__me {
-        width: 40%;
-        margin: 1rem auto 3rem;
+        width: 35%;
+        margin: 0 auto 3rem;
     }
 
     .about_cards {
@@ -108,11 +109,8 @@
         text-align: center;
     }
 
-    .about__content {
+    .about__content p{
         margin: 1.5rem 0;
     }
 
-    .about__content a{
-        margin-left: 1rem;
-    }
 }
