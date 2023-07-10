@@ -16,7 +16,7 @@ const header = () => {
         <div className="me">
           <img src={require('../../assets/profile.jpg')} alt="me"/>
         </div>
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
+        <a href="#Contact" className='scroll_down'>Scroll Down</a>
       </div>
     </header>
   )
