@@ -1,9 +1,8 @@
 
 
 .x{
-    display: grid;
-    grid-template-columns: 30% 60%;
-    gap: 10%;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
 }
 
 #about {
@@ -105,7 +104,6 @@
     .about_cards {
         grid-template-columns: 1fr;
         gap: 1rem;
-        margin-left: 3.8rem;
         margin-right: 0rem;
     }
 

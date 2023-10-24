@@ -5,15 +5,28 @@ import {BsLinkedin} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Contact = () => {
   const form = useRef();
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
+    try {
+      await emailjs.sendForm('service_tpffix5', 'template_pv800bp', form.current, 'uj2CYe81AOB2OycRL')
+      e.target.reset();
+      alert('Success! Your message was sent :-)');
+      toast.success('Success! Your message was sent :-)', {
+        position: toast.POSITION.TOP_CENTER
+      });
 
-    emailjs.sendForm('service_tpffix5', 'template_pv800bp', form.current, 'uj2CYe81AOB2OycRL')
-    e.target.reset()
+    } catch (error) {
+      console.error('An error occurred while sending the email:', error);
+      toast.error('Oops! Something went wrong while sending the email. Please try again.', {
+        position: toast.POSITION.TOP_CENTER
+      });
+    }
   };
   return (
     <section id='Contact'>
@@ -32,13 +45,13 @@ const Contact = () => {
             <BsLinkedin className='Contact__option-icon'/>
             <h4>Linkedin</h4>
             <h5>Gustav Meding</h5>
-            <a href="https://www.linkedin.com/messaging/thread/new/" target="_blank">Send a message</a>
+            <a href="https://www.linkedin.com/in/gustavmeding/" target="_blank" rel="noopener noreferrer">Send a message</a>
           </article>
           <article className='Contact__option'>
             <BsWhatsapp className='Contact__option-icon'/>
             <h4>What's App</h4>
-            <h5>+123456789</h5>
-            <a href="https://api.whatsapp.com/send?phone+4560194030" target="_blank">Send a Message</a>
+            <h5>+45********</h5>
+            <a href="https://wa.me/+4560194030" target="_blank" rel="noopener noreferrer">Send a Message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

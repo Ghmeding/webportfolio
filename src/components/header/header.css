@@ -53,8 +53,8 @@ header {
     height: auto;
     position: absolute;
     left: calc(50% - 7rem);
-    margin-top: 3rem;
-    border-radius: 10rem 10rem 1rem 1rem;
+    margin-top: 4rem;
+    border-radius: 5rem 5rem 2rem 2rem;
     overflow: hidden;
 }
 
@@ -97,8 +97,9 @@ header {
         color: white;
         width: 13rem;
         height: auto;
-        left: calc(60% - 10rem);
-        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
         border-radius: 10rem 10rem 3rem 3rem;
         overflow: hidden;
     }

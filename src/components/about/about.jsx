@@ -9,14 +9,9 @@ const about = () => {
   return (
     <section id='about'>
       <h5>Get to Know</h5>
-      <h2>About Me</h2>
+      <h2>Education & Experience</h2>
 
       <div className="container x">
-        <div className='about__me'>
-          <div className='about__me-image'>
-              <img src={ME} alt="About Image" />
-          </div>
-        </div>
 
         <div className='about__content'>
           <div className='about_cards'>
@@ -43,8 +38,6 @@ const about = () => {
 
             <p>
             </p>
-
-            <a href="#Contact" id="btn-about" className='btn btn-primary'>Let's Talk!</a>
         </div>
       </div>
     </section>
