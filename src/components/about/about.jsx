@@ -18,7 +18,7 @@ const about = () => {
 
             <article className='aboutci'>
               <FaAward className='about__icon'/>
-              <h5>Junior Front-end Developer</h5>
+              <h5>Developer</h5>
               <small>PeopleNet A/S</small>
             </article>
 

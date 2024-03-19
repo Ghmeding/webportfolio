@@ -5,6 +5,7 @@ import About from './components/about/about'
 import Experience from './components/experience/experience'
 import Contact from './components/Contact/Contact'
 import Footer from './components/footer/footer'
+import Portfolio from './components/portfolio/portfolio'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Nav />
       <About />
       <Experience />
+      <Portfolio />
       <Contact />
     </div>
   )
