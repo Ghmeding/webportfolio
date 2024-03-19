@@ -29,6 +29,22 @@
     overflow: hidden;
 }
 
+.portfolio__graph-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+    width: 70%;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.portfolio__devops-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 37px;
+}
+
+
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;
 }

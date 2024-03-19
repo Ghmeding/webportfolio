@@ -6,7 +6,7 @@ const experience = () => {
   return (
     <section id='experience'>
       <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h2>Skills & Technical Abilities</h2>
 
       <div className='container experience__container'>
         <div className='experience__frontend'>
@@ -49,7 +49,7 @@ const experience = () => {
           </article>
         </div>
       </div>
-        <div className='experience__backend'>
+      <div className='experience__backend'>
         <h3>Backend Development</h3>
           <div className="experience__content">
           <article className='experience__details'>
@@ -64,6 +64,13 @@ const experience = () => {
             <div>
               <h4>Node JS</h4>
               <small className='text-light'>Intermediate</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon'/>
+            <div>
+              <h4>Express JS</h4>
+              <small className='text-light'>Familiar</small>
             </div>
           </article>          
           <article className='experience__details'>
@@ -95,17 +102,43 @@ const experience = () => {
             </div>
           </article>
           <article className='experience__details'>
-            <BsPatchCheckFill className='experience__details-icon'/>
-            <div>
-              <h4>C#</h4>
-              <small className='text-light'>Familiar</small>
-            </div>
-          </article>
-          <article className='experience__details'>
           <BsPatchCheckFill className='experience__details-icon'/>
             <div>
               <h4>C</h4>
               <small className='text-light'>Familiar</small>
+            </div>
+          </article>
+        </div>
+        </div>
+        <div className='experience__devops'>
+        <h3>DevOps</h3>
+          <div className="experience__content">
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon'/>
+            <div>
+              <h4>Git</h4>
+              <small className='text-light'>Advanced</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon'/>
+            <div>
+              <h4>Docker</h4>
+              <small className='text-light'>Intermediate</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon'/>
+            <div>
+              <h4>CI & CD</h4>
+              <small className='text-light'>Intermediate</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon'/>
+            <div>
+              <h4>Monitoring</h4>
+              <small className='text-light'>Intermediate</small>
             </div>
           </article>
         </div>

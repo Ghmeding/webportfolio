@@ -6,6 +6,7 @@
 .x{
     display: flex;
     justify-content: center; /* Center the items horizontally */
+    
 }
 
 #about {
@@ -34,9 +35,10 @@
 }
 
 .about_cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
+    justify-content: center;
 }
 
 .aboutci {
@@ -47,6 +49,7 @@
     text-align: center;
     width: 15rem;
     transition: 0.9s;
+    flex-basis: 25%
 }
 
 .aboutci:hover {
@@ -64,10 +67,15 @@
 .aboutci h5 {
     font-size: 0.95rem;
 }
+.aboutci h6 {
+    font-size: 0.7rem;
+    margin-top: 8px;
+}
 
 .aboutci small{
     font-size: 0.7rem;
     color: var(--color-light);
+    margin-top: 8px;
 }
 
 .about__content p{

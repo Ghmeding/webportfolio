@@ -16,10 +16,26 @@ const about = () => {
         <div className='about__content'>
           <div className='about_cards'>
 
+          <article className='aboutci'>
+              <FaAward className='about__icon'/>
+              <h5>Associate Analyst</h5>
+              <h6>Deloitte</h6>
+              <h6>Cloud & Engineering</h6>
+              <small>April 2024 - Present</small>
+            </article>
+
             <article className='aboutci'>
               <FaAward className='about__icon'/>
               <h5>Developer</h5>
-              <small>PeopleNet A/S</small>
+              <h6>PeopleNet A/S</h6>
+              <small>June 2023 - April 2024</small>
+            </article>
+
+            <article className='aboutci'>
+              <FaAward className='about__icon'/>
+              <h5>IT Student Worker</h5>
+              <h6>K2 Management</h6>
+              <small>February 2021 - March 2022</small>
             </article>
 
             <article className='aboutci'>

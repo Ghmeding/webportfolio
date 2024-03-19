@@ -4,8 +4,8 @@
 }
 
 .experience__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
     gap: 2rem;
 }
 
@@ -38,6 +38,7 @@
 .experience__details{
     display: flex;
     gap: 1rem;
+    margin-left: 10px;
 }
 
 .experience__details-icon{
