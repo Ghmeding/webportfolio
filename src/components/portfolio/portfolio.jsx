@@ -3,6 +3,7 @@ import './portfolio.css';
 import goImg from '../../assets/chatapp.png'
 import graphqlImg from '../../assets/Graphql.png'
 import devopsImg from '../../assets/devops.png'
+import pernImg from '../../assets/pern.png'
 
 const Portfolio = () => {
     return (
@@ -20,7 +21,7 @@ const Portfolio = () => {
                     <a href="https://github.com/Ghmeding/ChatApp" className="btn" target="_blank">Go to repo</a>
                 </article>
                 <article className="portfolio__item">
-                    <div className="portfolio__graph-image">
+                    <div className="portfolio__item-image">
                         <img src={graphqlImg} alt="" />
                     </div>
 
@@ -28,12 +29,18 @@ const Portfolio = () => {
                     <a href="https://github.com/Ghmeding/GraphQLAPI" className="btn" target="_blank">Go to repo</a>
                 </article>
                 <article className="portfolio__item">
-                    <div className="portfolio__devops-image">
+                    <div className="portfolio__item-image">
                         <img src={devopsImg} alt="" />
                     </div>
-
                     <h3>DevOps Project w. Golang (GORM), Docker and CI/CD via Github Actions</h3>
                     <a href="https://github.com/DevOps-Adventure/DevOps-Adventure" className="btn" target="_blank">Go to repo</a>
+                </article>
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={pernImg} alt="" />
+                    </div>
+                    <h3>To-do Application w. PERN-stack <br></br> (IN PROGRESS)</h3>
+                    <a href="https://github.com/Ghmeding/to-do-app" className="btn" target="_blank">Go to repo</a>
                 </article>
             </div>
         </section>
