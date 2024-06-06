@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/webportfolio/static/css/main.9e97a7bd.css",
-    "main.js": "/webportfolio/static/js/main.22ec961a.js",
+    "main.js": "/webportfolio/static/js/main.2c679f22.js",
     "static/media/me-about.jpg": "/webportfolio/static/media/me-about.d82bdfe63db8c58ee949.jpg",
     "static/media/chatapp.png": "/webportfolio/static/media/chatapp.10656f20a3b7ce606763.png",
     "static/media/pern.png": "/webportfolio/static/media/pern.d5c67d7aa9c114dbc2ec.png",
-    "static/media/Gustav_Meding_CV_2024.pdf": "/webportfolio/static/media/Gustav_Meding_CV_2024.0bb1df012aae0949fcd2.pdf",
+    "static/media/Gustav_Meding_CV_2024.pdf": "/webportfolio/static/media/Gustav_Meding_CV_2024.e394548d7c3cb1b5f40b.pdf",
     "static/media/Graphql.png": "/webportfolio/static/media/Graphql.de1b8d9e29b97c63fec9.png",
     "static/media/profile.jpg": "/webportfolio/static/media/profile.1b47364b2bc8417f0a55.jpg",
     "static/media/devops.png": "/webportfolio/static/media/devops.447c0c95d57d596d7831.png",
     "index.html": "/webportfolio/index.html",
     "main.9e97a7bd.css.map": "/webportfolio/static/css/main.9e97a7bd.css.map",
-    "main.22ec961a.js.map": "/webportfolio/static/js/main.22ec961a.js.map"
+    "main.2c679f22.js.map": "/webportfolio/static/js/main.2c679f22.js.map"
   },
   "entrypoints": [
     "static/css/main.9e97a7bd.css",
-    "static/js/main.22ec961a.js"
+    "static/js/main.2c679f22.js"
   ]
 }
