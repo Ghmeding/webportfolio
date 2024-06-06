@@ -78,6 +78,19 @@ header {
     .scroll_down {
         margin: 2rem
     }
+
+    .me {
+        /*background: var(--color-primary);*/
+        background: linear-gradient(var(--color-primary),transparent);
+        color: white;
+        width: 14rem;
+        height: auto;
+        position: absolute;
+        left: calc(50% - 7rem);
+        margin-top: 4rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        overflow: hidden;
+    }
 }
 
 
@@ -93,14 +106,15 @@ header {
     }
 
     .me {
+        /*background: var(--color-primary);*/
         background: linear-gradient(var(--color-primary),transparent);
         color: white;
-        width: 13rem;
+        width: 14rem;
         height: auto;
-        display: flex;
-        justify-content: center;
-        margin-top: 2rem;
-        border-radius: 10rem 10rem 3rem 3rem;
+        position: absolute;
+        left: calc(50% - 7rem);
+        margin-top: 4rem;
+        border-radius: 1rem 1rem 1rem 1rem;
         overflow: hidden;
     }
 }
