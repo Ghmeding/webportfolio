@@ -75,6 +75,8 @@
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+        display: flex;
+        flex-direction: column;
     }
     
 }
