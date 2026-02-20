@@ -1,22 +1,25 @@
 #portfolio {
     padding-top: 20rem;
     padding-bottom: 15rem;
+    scroll-margin-top: -10rem;
 }
 
 .portfolio__container { 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    grid-template-columns: 1fr;
     gap: 2.5rem;
 }
 
 .portfolio__item{
     background: var(--color-bg-variant);
-    padding: 1.3rem;
-    border-radius: 2rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
     border: 1px solid transparent;
     transition: var(--transisiton);
-    width: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio__item:hover{
@@ -49,6 +52,12 @@
 
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;
+    flex-grow: 1;
+}
+
+.portfolio__item > a {
+    align-self: center;
+    margin-top: auto;
 }
 
 .portfolio__item-cta {

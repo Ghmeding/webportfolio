@@ -2,12 +2,10 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
-import Portfolio from '../portfolio/portfolio'
 
 const header = () => {
   return (
       <div className="container header_container">
-        <h5>Hello I'm</h5>
         <h1 className="titleName">Gustav Meding</h1>
         <h5 className="text-light">Consultant, Deloitte - Cloud & Engineering / Backend Engineer</h5>
         <CTA />
@@ -16,9 +14,6 @@ const header = () => {
           <img src={require('../../assets/profile.jpg')} alt="me"/>
         </div>
         <a href="#Contact" className='scroll_down'>Scroll Down</a>
-        <div>
-        <Portfolio/>
-      </div>
       </div>
   )
 }

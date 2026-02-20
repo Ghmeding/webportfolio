@@ -3,6 +3,7 @@ import './portfolio.css';
 import goImg from '../../assets/chatapp.png'
 import thesisImg from '../../assets/thesis.png'
 import devopsImg from '../../assets/devops.png'
+import boligAdminImg from '../../assets/boligadmin.png'
 
 const Portfolio = () => {
     return (
@@ -11,6 +12,13 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
 
             <div className="container portfolio__container">
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={boligAdminImg} alt="" />
+                    </div>
+                    <h3>BoligAdmin - A SAAS-solution for managing properties, tenants, and rental agreements.</h3>
+                    <a href="https://github.com/Ghmeding/BoligAdmin-BE" className="btn" target="_blank">Go to repo</a>
+                </article>
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
                         <img src={goImg} alt="" />
