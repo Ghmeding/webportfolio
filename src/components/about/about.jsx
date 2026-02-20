@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
 import { FaAward } from 'react-icons/fa'
 import { MdSchool } from 'react-icons/md'
 import { MdOutlineSchool } from 'react-icons/md'
